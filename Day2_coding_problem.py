@@ -14,7 +14,7 @@
 #================================================================
 
 
-#Method 1: 
+#Method 1:  Using Third Variable
 a_value = int(input("Enter the value of a: "))
 b_value = int(input("Enter the value of b: "))
 c_value = a_value
@@ -22,7 +22,7 @@ a_value = b_value
 b_value = c_value
 print(" After Swapping : a = ", a_value, "b = ", b_value)
 
-#Method 2:
+#Method 2: Without Using Third Variable
 a_value = int(input("Enter the value of a: "))
 b_value = int(input("Enter the value of b: "))
 a_value, b_value = b_value, a_value
