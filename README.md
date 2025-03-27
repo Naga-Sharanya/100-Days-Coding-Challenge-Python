@@ -66,5 +66,5 @@ Welcome to the **100 Days of Python Coding Challenge!** This journey is designed
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/100days_coding_challenge.git
+git clone https://github.com/Naga-Sharanya/100-Days-Coding-Challenge-Python.git
 cd 100days_coding_challenge
