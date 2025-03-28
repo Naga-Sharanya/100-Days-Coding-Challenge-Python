@@ -12,3 +12,15 @@
 # Dict of cubes: {1: 1, 2: 8, 3: 27, 4: 64, 5: 125}
 
 #================================================================
+
+#List of Squares:
+square_list = []
+for i in range(1, 11):
+    square_list.append(i**2)
+print("List of squares: ", square_list)
+
+#Dict of cubes:
+cubes_dict = {}
+for i in range(1,6):
+    cubes_dict[i] = i**3
+print("Dict of cubes: ", cubes_dict)
