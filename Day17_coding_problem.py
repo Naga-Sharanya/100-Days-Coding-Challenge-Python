@@ -13,3 +13,10 @@
 # Sum: 10
 
 #===============================================================
+
+
+def sum_numbers(*args):
+    return sum(args)
+
+result = sum_numbers(1, 7, 3, 4)
+print("Sum: ", result)

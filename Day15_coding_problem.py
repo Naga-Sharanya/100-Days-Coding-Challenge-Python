@@ -13,3 +13,15 @@
 # Error: Division by zero is not allowed.
 
 #===============================================================
+
+def divide(a, b):
+    try:
+        result = a/b
+        return result
+    except ZeroDivisionError:
+        return "Error: Division by zero is not allowed."
+    
+a = int(input("Enter a value: "))
+b = int(input("Enter b value: "))
+result = divide(a, b)
+print(result)

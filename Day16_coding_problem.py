@@ -11,3 +11,14 @@
 # Cube of 3: 27
 
 #================================================================
+
+def power(n):
+    def nth_power(x):
+        return x ** n
+    return nth_power
+
+square = power(2)
+cube = power(3)
+
+print("Square of 4 is: ", square(4))
+print("Cube of 3 is: ", cube(3))

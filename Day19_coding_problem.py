@@ -11,3 +11,10 @@
 # Name: John, Age: 25
 
 #===============================================================
+
+
+data = {"Name": "John", "Age" : "25", "city":"Hyderabad"}
+name = data["Name"]
+age = data["Age"]
+
+print(f"Name : {name}, Age : {age}")

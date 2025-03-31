@@ -11,3 +11,11 @@
 # Content displayed successfully.
 
 #================================================================
+
+import csv
+
+with open('"D:/content-audit-file.csv"', mode = 'r') as file:
+    csv_reader = csv.reader('file')
+    
+    for row in csv_reader:
+        print(row)
